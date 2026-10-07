@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     sshpass \
     openssh-client \
     libglib2.0-0 \
+    libnspr4 \
     && curl -fsSL https://rclone.org/install.sh | bash \
     && rclone version \
     && ssh -V \
