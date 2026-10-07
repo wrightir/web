@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     libglib2.0-0 \
     libnspr4 \
     libnss3 \
+    libatk1.0-0 \
     && curl -fsSL https://rclone.org/install.sh | bash \
     && rclone version \
     && ssh -V \
